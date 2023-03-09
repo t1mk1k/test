@@ -17,7 +17,7 @@ if __name__ == '__main__':
     parser.add_argument('-t', '--temp', help='temp folder', required=True)
 
     data_file_path = f"{args.input_path}/words.txt"
-    results_file_path = f"{args.output_path)/results.txt"
+    results_file_path = f"{args.output_path}/results.txt"
     
     with open(data_file_path, "r") as data_file:
       data = data_file.read()
