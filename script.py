@@ -28,7 +28,7 @@ if __name__ == '__main__':
       data = data_file.read()
       words = data.split()
 
-    average_word_length = reduce(lambda x, y: x+y, words, 0) / float(len(words))
+    average_word_length = reduce(lambda x, y: x+len(y), words, 0) / float(len(words))
 
     print(f"Number of words: {len(words)}")
     print(f"Average word length is {average_word_length}")
