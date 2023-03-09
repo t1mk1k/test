@@ -26,4 +26,4 @@ if __name__ == '__main__':
     average_word_length = reduce(lambda x, y: x+y, words, 0) / float(len(words))
 
     with open(results_file_path, "w") as results_file:
-      results_file.write(f"Average word length is {average_word_length}"
+      results_file.write(f"Average word length is {average_word_length}")
