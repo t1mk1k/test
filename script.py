@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 import argparse
-
+from functools import reduce
 
 if __name__ == '__main__':
     '''
